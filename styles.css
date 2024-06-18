@@ -12,16 +12,18 @@ body {
   background-color: hsl(30, 54%, 90%);
   font-family: "Outfit";
   font-weight: 400;
+  font-size: 16px;
 }
 
 main {
   background-color: white;
+  color: hsl(24, 5%, 18%);
   border-radius: 25px;
   margin: 5em 5em;
   padding: 2em;
 }
 main img {
-  width: 25em;
+  width: 100%;
   margin: auto;
   display: block;
   border-radius: 10px;
@@ -30,10 +32,14 @@ main img {
 #prep {
   background-color: hsl(330, 100%, 98%);
   border-radius: 15px;
+  padding: 0.5em;
+}
+
+.prep-item {
+  margin: 10px 0;
 }
 
 h1 {
-  color: hsl(24, 5%, 18%);
   font-family: "Young-Serif";
 }
 
