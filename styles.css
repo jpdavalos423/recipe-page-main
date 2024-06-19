@@ -48,10 +48,14 @@ hr {
   border-style: solid;
 }
 
-.prep-item,
 .ingr-item,
 .inst-item {
-  margin: 10px 0;
+  margin: 10px 0px 10px -20px;
+  padding-left: 20px;
+}
+
+.prep-item {
+  margin: 10px 0px;
   padding-left: 20px;
 }
 
@@ -86,6 +90,7 @@ hr {
 
 #nutri-table {
   width: 100%;
+  border-spacing: 0;
 }
 
 .nutri-value {
@@ -101,7 +106,7 @@ td {
 
 @media (max-width: 768px) {
   body {
-    margin: 1em;
+    margin: 3em;
   }
 }
 
@@ -111,10 +116,14 @@ td {
   }
   main {
     margin: 0em;
+
     border-radius: 0px;
   }
 
   main img {
     border-radius: 0px;
+    width: calc(100% + 3.6em); /* twice the value of the parent's padding*/
+    margin: -2em;
+    margin-bottom: 2em;
   }
 }
